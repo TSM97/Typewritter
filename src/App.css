@@ -9,6 +9,12 @@
     position:absolute;
 }
 
+.begin{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
 .word {
     position: absolute;
     padding:10px;
