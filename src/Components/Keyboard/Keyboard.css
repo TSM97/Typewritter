@@ -1,0 +1,23 @@
+.keyboardRow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:25px;
+    z-index:1;
+}
+
+.key{
+    z-index:1;
+    width: 40px;
+    height:40px;
+    border:1px solid rgba(0, 86, 136, 0.164);
+    border-left: 8px solid rgba(0, 86, 136, 0.356);
+    border-bottom: 15px solid rgba(0, 162, 255, 0.123);
+    margin-bottom: 5px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+.hit{
+    background-color: rgba(0, 135, 212, 0.322);
+    border-bottom: 7px solid rgba(0, 162, 255, 0.123);
+}
